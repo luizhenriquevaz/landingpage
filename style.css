@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Alef:wght@700&family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-size: 100%;
+    background: #D7F5DC;
+}
+.cabecalho {
+    display:flex;
+    justify-content: space-around;
+    padding: 24px;
+    align-items:center;
+    margin-top: 1px;
+    top: 50%;
+    right: 0%;
+}
+.logo-cabecalho {
+    font-size: 23px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    height: 34px;
+    gap: 11px;
+    width: 700px;
+    padding:0px;
+    margin-left: 60px;
+}
+.logo-cabecalho-desing {
+    font-size: 23px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    height: 34px;
+    }
+.logo-cabecalho-agency {
+    font-size: 23px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    height: 34px;
+    color: orange;
+    }
+.cabecalho-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    gap: 35px ;
+}
+.cabecalho-menu-services {
+    font-size: 18px;   
+    font-family: 'poppins';
+    font-weight: 400;
+    line-height: 4;
+    padding: 10px;
+}
+.cabecalho-menu-abou {
+    font-size: 18px;   
+    font-family: 'poppins';
+    font-weight: 400;
+    line-height: 4;
+    padding: 10px;
+}
+.cabecalho-menu-contact {
+    font-size: 18px;   
+    font-family: 'poppins';
+    font-weight: 400;
+    line-height: 4;
+    padding: 10px;
+}
+.cabecalho-menu-login {
+    box-sizing: border-box ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 106.6px;
+    height: 50.93px;
+    border: 1px solid #20B15A;
+    border-radius: 12px;
+    width: 90px;
+    height: 60px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18.34px;
+    line-height: 28px;
+    background-color: transparent;
+}
+
+.cabecalho-menu-login:hover {
+    background-color: #A0EABD;
+
+}
+.cabecalho-menu-register {
+    box-sizing: border-box ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 106.6px;
+    height: 50.93px;
+    border: 1px solid #20B15A;
+    border-radius: 12px;
+    width: 130px;
+    height: 60px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18.34px;
+    line-height: 28px;
+    background: #20B15A;
+    color: white;
+}
+
+.cabecalho-menu-register:hover {
+    background-color: #1B8344;}
+
+.conteudo {
+    display: flex;
+    align-items:center;
+    margin-top: 70px;
+}
+
+.conteudo-principal-titulo {
+    width: 630.44px;
+height: 224px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 57.3125px;
+line-height: 75px;
+margin-left: 70px;
+}
+
+.conteudo-principal-subtitulo {
+    width: 541.03px;
+    width: 541.03px;
+height: 93px;
+
+font-family: 'Alef';
+font-style: normal;
+font-weight: 700;
+font-size: 22.925px;
+line-height: 31px;
+margin-left: 70px;
+margin-top: 20px;
+}
+
+.conteudo-principal-botao {
+    box-sizing: border-box ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    border: 1px solid #20B15A;
+    border-radius: 12px;
+    width: 200px;
+    height: 79px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    background: #20B15A;
+    color: white;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.conteudo-principal-botao:hover {
+    background-color:#1B8344 ;
+}
+
+.conteudo-principal-imagem-lady {
+    position: absolute;
+    position: absolute;
+    width: 900px;
+    height: 600px;
+    left: 900px;
+    top: 180.4px;
+    
+
+}
+
+.conteudo-principal-imagem-detalhes { 
+    position: absolute;
+width: 600px;
+height: 500px;
+left: 900px;
+top: 195px;
+}
+
+.conteudo-principal-imagem-bolinhas {
+    left: 1030px;
+    position:absolute;
+    height: 500px;
+    top: 200px;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+    height: 55px; 
+}
+
+.rodape-imagem-branca {
+    position: absolute;
+    height: 157.05px;
+    margin-top: -40px;
+}
+
+.rodape1 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+        height: 55px;
+        margin-left: 120px;
+        margin-right: 50px;
+        position: absolute;
+        gap:150px;
+}
+
+
+
+
